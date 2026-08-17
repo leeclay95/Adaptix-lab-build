@@ -1,0 +1,42 @@
+# Build artifacts
+*.o
+*.so
+*.exe
+*.dll
+*.a
+dist/
+*.swp
+*~
+.DS_Store
+
+# Go
+vendor/
+go.sum
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+server.log
+
+# Binaries (keep source, ignore compiled output)
+dns_agent_*.exe
+svchost.exe
+rundll32.exe
+windowsupdate.exe
+
+# Temporary files
+.tmp
+*.bak
+*.backup
+
+# Symbol tables (generated)
+beacon_syms_enc.h
+
+# Environment files
+.env
+.env.local

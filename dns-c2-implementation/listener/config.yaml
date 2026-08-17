@@ -1,0 +1,7 @@
+extender_type: "listener"
+extender_file: "BeaconDNS.so"
+ax_file: "ax_config.axs"
+
+listener_name: "DNSC2"
+listener_type: "external"
+protocol: "DNS"
